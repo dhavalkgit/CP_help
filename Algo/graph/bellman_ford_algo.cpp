@@ -1,3 +1,8 @@
+/*
+ 1. It only work on drirected graph 
+ 2. Need to relax every edges n-1 time (any vertex max n-1 egges)
+*/
+
 vector<int> bellman(int n, int s, vector<vector<int>>&edges){
     vector<int>dist(n,INT_MAX);
     dist[s]=0;
